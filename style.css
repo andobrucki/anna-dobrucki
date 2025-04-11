@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: rgb(255, 0, 255);
+  color: rgb(248, 169, 248);
 }
 
 #cursor-circle {
@@ -73,7 +73,7 @@ a:hover {
   /* mix-blend-mode: exclusion; */
   /* mix-blend-mode: difference; */
   z-index: 10000;
-  background-color: rgb(252, 0, 255);
+  background-color: rgb(255, 0, 255);
   height: 30px;
   width: 30px;
   transition: all 30ms ease-out;
@@ -95,7 +95,7 @@ a:hover {
 
   h1 {
     font-family: Roboto, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
   }
   h2 {
