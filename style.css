@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(249, 250, 249) 93%,
+    rgb(0, 255, 0) 100%
+  );
+  color: rgb(8, 0, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 1rem;
+}
+
+header {
+  margin: 5rem 0 0 5rem;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  font-weight: inherit;
+  color: rgb(65, 245, 0);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: serif;
+ font-size: 2.8rem;
+ font-weight: 400;
+}
+
+.contact {
+  margin: 2rem 7% 0 5rem;
+}
+
+ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: rgb(65, 245, 0);
+  transition: color 0.3s ease-in-out;
+  cursor: inherit;
+}
+
+h1:hover,
+h2:hover,
+a:hover {
+  color: #ff00ff;
+}
+
+
+@media (max-width: 600px) {
+  h1,
+  h2 {
+    font-size: 1.5em;
+  }
+
+
+ul {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+}
