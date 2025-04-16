@@ -12,14 +12,10 @@ body {
   background: linear-gradient(
     to right,
     rgb(249, 250, 249) 0,
-    rgb(249, 250, 249) calc(100% - 30px),
-    rgb(0, 255, 0) calc(100% - 7px),
-    rgb(0, 255, 0) 100%
+    rgb(249, 250, 249) calc(100% - 10px),
+    rgb(0, 255, 0) calc(100% - 2px),
+    rgb(0, 255, 0) 90%
   );
-  /* background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100% 100%; */
-
   color: rgb(8, 0, 0);
   display: flex;
   flex-direction: column;
@@ -37,16 +33,18 @@ h2 {
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 h2 {
   font-family: serif;
   font-size: 2.8rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .contact {
-  margin: 2rem 7% 0 5rem;
+  width: 80%;
+  margin: 0.1rem 7% 0 5rem;
+  padding: 2rem;
 }
 
 ul {
@@ -60,6 +58,7 @@ a {
   font-family: Roboto, sans-serif;
   color: rgb(65, 245, 0);
   transition: color 0.3s ease-in-out;
+  font-size: 12px;
 }
 
 a:hover {
@@ -68,26 +67,17 @@ a:hover {
 
 #cursor-circle {
   position: fixed;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   transform: translateX(-50%) translateY(-50%);
   pointer-events: none;
-  background: radial-gradient(
-    circle,
-    rgb(255, 0, 255) 0%,
-    rgba(255, 0, 255, 0.6) 50%,
-    rgba(255, 0, 255, 0) 100%
-  );
-  mix-blend-mode: hue; /* verändert Farbton darunter */
+  background: rgb(255, 0, 255);
+  filter: blur(3px);
+  mix-blend-mode: screen;
   left: -100px;
   top: 50%;
-  /* mix-blend-mode: color; */
-  /* mix-blend-mode: exclusion; */
-  /* mix-blend-mode: difference; */
-
   z-index: 10000;
-
   transition: all 30ms ease-out;
 }
 
