@@ -20,11 +20,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-size: 1rem;
 }
 
 header {
-  margin: 5rem 0 0 5rem;
+  padding: 10rem 0 0 10rem;
 }
 h1,
 h2 {
@@ -32,12 +31,13 @@ h2 {
 }
 h1 {
   font-family: Roboto, sans-serif;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 400;
+  line-height: 0.8;
 }
 h2 {
   font-family: serif;
-  font-size: 2.8rem;
+  font-size: 4.4rem;
   font-weight: 500;
 }
 
@@ -58,7 +58,7 @@ a {
   font-family: Roboto, sans-serif;
   color: rgb(65, 245, 0);
   transition: color 0.3s ease-in-out;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 a:hover {
@@ -90,20 +90,25 @@ a:hover {
     display: none;
   }
 
-  header,
-  .contact {
-    margin: 2rem 0 0 2rem;
+  header {
+    padding: 5rem 0 0 4rem;
   }
 
   h1 {
     font-family: Roboto, sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 2rem;
   }
   h2 {
     font-family: serif;
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 2.2rem;
+  }
+  .contact {
+    width: 80%;
+    margin: 0.1rem 7% 0 4rem;
+    padding: 2rem;
+  }
+  a {
+    font-size: 0.8rem;
   }
 
   ul {
