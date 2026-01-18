@@ -111,19 +111,14 @@ a:hover {
     font-size: 2.2rem;
   }
   .contact {
-    width: 80%;
-    margin: 0.1rem 7% 0 4rem;
-    padding: 2rem;
-  }
-  a {
-    font-size: 0.8rem;
+    padding: 20rem 0 0 20rem;
   }
 
   ul {
     flex-direction: column;
   }
-
+  /* 
   ul :nth-child(2) {
     padding: 0.5rem 1rem;
-  }
+  } */
 }
