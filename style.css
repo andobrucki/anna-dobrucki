@@ -22,11 +22,13 @@ body {
   height: 100vh;
 }
 
-header {
+.intro {
   padding: 10rem 0 0 10rem;
 }
+
 h1,
-h2 {
+h2,
+p {
   color: rgb(65, 245, 0);
 }
 h1 {
@@ -40,7 +42,14 @@ h2 {
   font-size: 4.4rem;
   font-weight: 500;
 }
-
+/* 
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-right: 30rem;
+} */
 .contact {
   width: 80%;
   margin: 0.1rem 7% 0 5rem;
@@ -51,7 +60,7 @@ ul {
   list-style: none;
   flex-direction: row;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
@@ -60,7 +69,6 @@ a {
   transition: color 0.3s ease-in-out;
   font-size: 0.8rem;
 }
-
 a:hover {
   color: rgb(255, 0, 255, 0.6);
 }
